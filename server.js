@@ -14,6 +14,6 @@ app.get('/about', function(req, res){
 });
  
 // escuchar
-app.listen(9000);
+app.listen(8000);
  
 console.log("Servidor Express escuchando en modo %s", app.settings.env);
