@@ -1,0 +1,43 @@
+//AYUDA
+http://speakinbytes.com/2014/02/git-para-principiantes-noob-te-presento-a-git/
+http://rogerdudler.github.io/git-guide/index.es.html
+
+//Al hacer PUSH te pedira user y pssd son bruno74 y b4Ngk0kK02008X
+
+ssh -v git@github.com
+
+ssh -v git@bitbucket.org
+
+/********* COMANDOS BASICOS GIT ***********/
+//MODIFICAR git
+nano ~/.gitconfig
+
+//INICIALIZA GIT
+git init
+
+//AÑADIR FICHERO PARA ENVIAR (pero no esta enviado)
+git add nombrefichero
+
+//AYUDA GIT
+git help
+
+//COMPRUEBA ESTADO REPOSITORIO
+git status
+
+//SE COMFIRMA QUE SE QUIERE ENVIAR (pero sigue sin estar enviado)
+git commit -m "mensaje del commit"
+
+//SE ENVIA AL REPOSITORIO (la f es para forzar)
+git push [-f] nombreRepositorio
+
+
+//CCONSTRUIR NUEVA RAMA
+git branch nombreRama
+
+//VER RAMAS EXISTENTES
+git branch
+
+//MOVERTE POR LAS DIFERENTES RAMAS
+git checkout nombreRama
+
+
